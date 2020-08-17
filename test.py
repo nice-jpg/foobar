@@ -48,7 +48,7 @@ def BFS(mat, src: Point, dest: Point):
     # Distance of source cell is 0 
     s = queueNode(src,0) 
     q.append(s) # Enqueue source cell 
-    
+      
     # Do a BFS starting from source cell 
     while q: 
 
